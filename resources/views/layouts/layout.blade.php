@@ -8,12 +8,12 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body class="container">
-    <div class="container">
-        <div class="container title">
-            <h1 class="hdText">Pizza List</h1>
-            <div class="type"><p>{{$type}} - {{$base}}</p></div>
-        </div>
+<body>
+        @yield('content')
     </div>
+
+    <footer>
+        Copyright 2022 pizza House
+    </footer>
 </body>
 </html>

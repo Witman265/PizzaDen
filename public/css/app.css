@@ -11293,10 +11293,30 @@ textarea.form-control-lg {
   padding-left: 340px;
 }
 
-.hdText{
-  font-size: 70px;
+.showTitle{
+  color: #5e2195;
+  font-size: 30px;
 }
 
-.type{
+.typex{
   padding-left: 45px;
+  font-size: 18px;
+  color: var(--bs-gray-dark);
+}
+
+footer{
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo{
+  padding-left: 280px;
+  padding-top: 100px;
+}
+
+.lebo{
+  color: #5e2195;
+  font-size: 30px;
+  border-bottom: 2px solid;
 }
